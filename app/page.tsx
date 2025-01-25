@@ -1,9 +1,12 @@
 import Hero from '@/components/hero'
+import SectionTwo from '@/components/section2'
+import SectionThree from '@/components/section3'
 
 export default function Home() {
   return (
-    <main className="flex max-w-screen-2xl flex-col gap-2 overflow-x-hidden sm:gap-4 md:gap-6 lg:gap-8">
+    <main className="grid max-w-screen-2xl gap-6 overflow-x-hidden lg:gap-12">
       <Hero />
+      <SectionTwo />
     </main>
   )
 }

@@ -32,7 +32,7 @@ export default function Hero() {
         alt="logo"
         className="absolute -z-30 hidden h-screen w-screen sm:block"
       />
-      <section className="flex w-screen flex-col-reverse items-center justify-between gap-4 md:gap-8 lg:flex-row lg:py-8">
+      <section className="flex w-screen flex-col-reverse items-center justify-between gap-4 md:gap-8 lg:flex-row lg:items-start lg:py-4">
         <div className="p-4 text-center uppercase sm:text-start lg:p-16">
           <h1 className="font-brilliant text-3xl font-bold sm:text-5xl lg:text-7xl lg:font-extrabold">
             Kyun Badhaye <br className="hidden lg:block" /> Kandhey Par Boj
