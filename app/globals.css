@@ -2,26 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+@font-face {
+  font-family: 'Brilliant Cut Pro';
+  src: url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.eot');
+  src:
+    url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/fb08f552349babdf4f2a725b2fab9abf.svg#Brilliant Cut Pro')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 228, 11%, 9%, 1;
+    --foreground: 0, 0, 100%, 1;
+    --card: 216, 9%, 11%, 1;
+    --primary: 100, 67%, 46%, 1;
+    --secondary: 0, 0%, 10%, 1;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 228, 11%, 9%, 1;
+    --foreground: 0, 0, 100%, 1;
+    --card: 216, 9%, 11%, 1;
+    --primary: 100, 67%, 46%, 1;
+    --secondary: 0, 0%, 10%, 1;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
