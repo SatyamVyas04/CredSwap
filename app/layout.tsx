@@ -1,5 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Hanken_Grotesk } from 'next/font/google'
+const grotesk = Hanken_Grotesk({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '700', '800', '900'],
+})
 
 export const metadata: Metadata = {
   title: 'CredSwap',
@@ -13,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="text-white">
+    <html lang="en" className={`text-white ${grotesk.className}`}>
       <body>{children}</body>
     </html>
   )

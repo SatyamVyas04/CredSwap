@@ -1,10 +1,4 @@
 import Image from 'next/image'
-import { Hanken_Grotesk } from 'next/font/google'
-import { cn } from '@/lib/utils'
-const grotesk = Hanken_Grotesk({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '700', '800', '900'],
-})
 
 export default function Hero() {
   return (
@@ -42,12 +36,7 @@ export default function Hero() {
             <span className="text-primary">Credit Card</span> <br /> Ke Maximum
             Discount Ki Khoj
           </h2>
-          <p
-            className={cn(
-              'mt-4 text-sm lg:mt-6 lg:text-base',
-              grotesk.className,
-            )}
-          >
+          <p className={'mt-4 text-sm lg:mt-6 lg:text-base'}>
             Unlock exclusive discounts, rewards, and premium perks without
             owning a credit card. <br className="hidden lg:block" />
             CredSwap connects you to smarter financial possibilities
