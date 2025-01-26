@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Section4() {
   return (
-    <section className="mx-auto flex max-w-6xl flex-col gap-4 p-2 pb-8">
+    <section className="mx-auto flex max-w-6xl flex-col gap-4 p-2 py-8">
       <article className="grid gap-4 lg:grid-cols-[20%_30%_30%_20%]">
         <div className="lg:col-span-2">
           <Image

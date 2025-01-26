@@ -20,14 +20,14 @@ export default function Section3() {
       />
 
       <section className="grid grid-cols-1 gap-4 p-4 font-brilliant uppercase lg:grid-cols-[65%_35%] lg:p-16">
-        <article className="rounded-3xl bg-black/50 p-4 backdrop-blur-lg lg:p-12">
+        <article className="rounded-3xl bg-black/50 p-4 text-center backdrop-blur-lg lg:p-12">
           <h1 className="text-3xl font-bold lg:text-5xl">Our Vision</h1>
           <p className="mt-2 text-sm lg:mt-4 lg:text-base">
             To create a community where credit card perks are accessible and
             beneficial to all, fostering trust, transparency, and collaboration.
           </p>
         </article>
-        <article className="rounded-3xl bg-black/50 p-4 backdrop-blur-lg lg:row-span-2 lg:place-items-end lg:rounded-none lg:border-none lg:bg-transparent lg:p-8 lg:text-end lg:backdrop-blur-0">
+        <article className="rounded-3xl bg-black/50 p-4 text-center backdrop-blur-lg lg:row-span-2 lg:place-items-end lg:rounded-none lg:border-none lg:bg-transparent lg:p-8 lg:text-end lg:backdrop-blur-0">
           <h1 className="text-3xl font-bold lg:text-6xl">
             Our <span className="text-primary">S</span>tory
           </h1>

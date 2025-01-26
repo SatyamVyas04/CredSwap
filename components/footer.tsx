@@ -23,7 +23,7 @@ export default function Footer() {
           alt="logo"
           className="h-12 w-fit"
         />
-        <p>Available On</p>
+        <p>Launching On</p>
         <div className="flex flex-row items-center justify-center gap-4">
           <button className="flex flex-row items-end justify-center gap-2 rounded-md bg-secondary px-4 py-2 text-white transition-all hover:invert">
             <Image
@@ -47,9 +47,10 @@ export default function Footer() {
           </button>
         </div>
         <p className="mt-2 max-w-xl px-4 text-center text-xs text-white/30">
-          Banking services backed by Bancorp MFB & FCMB and regulated by the
-          Central Bank of Nigeria. Brass Technology Nigeria Limited, DBA: Brass
-          is a Brass Technologies, Inc company.
+          &copy; {new Date().getFullYear()} | Banking services backed by Bancorp
+          MFB & FCMB and regulated by the Central Bank of Nigeria. Brass
+          Technology Nigeria Limited, DBA: Brass is a Brass Technologies, Inc
+          company.
         </p>
       </footer>
     </>

@@ -3,20 +3,20 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <>
-      <nav className="flex w-full flex-row items-center justify-between px-2 md:p-8">
+      <nav className="flex w-full flex-row items-center justify-between p-4 md:p-8">
         <Image
           src="/assets/Generic/logo.png"
           width={200}
           height={200}
           alt="logo"
-          className="w-16"
+          className="w-12 sm:w-16"
         />
         <Image
           src="/assets/Generic/textlogo.png"
           width={200}
           height={200}
           alt="logo"
-          className="h-16 w-fit"
+          className="h-8 w-fit sm:h-16"
         />
       </nav>
       <Image
