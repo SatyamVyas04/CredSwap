@@ -7,6 +7,7 @@ export default function Home() {
     <main className="grid max-w-screen-2xl gap-6 overflow-x-hidden lg:gap-12">
       <Hero />
       <SectionTwo />
+      <SectionThree />
     </main>
   )
 }
