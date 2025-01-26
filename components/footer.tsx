@@ -4,13 +4,15 @@ export default function Footer() {
   return (
     <>
       <article className="p-4 px-2 lg:mt-16">
-        <Image
-          src="/assets/Generic/videoplaceholder.png"
-          alt="video placeholder"
-          width={2000}
-          height={2000}
-          className="mx-auto w-[90dvw]"
-        />
+        <div className="min- relative mx-auto min-h-[400px] w-[90dvw] max-w-[1300px] xl:min-h-[500px]">
+          <Image
+            src="/assets/Generic/videoplaceholder.png"
+            alt="video placeholder"
+            width={2000}
+            height={2000}
+            className="absolute h-full rounded-xl object-cover"
+          />
+        </div>
         <h1 className="mt-1 text-center font-brilliant text-[40px] font-bold uppercase tracking-tighter sm:text-[80px] md:text-[95px] lg:text-[120px] xl:text-[190px]">
           How It <span className="text-primary">Works</span>
         </h1>
@@ -47,10 +49,7 @@ export default function Footer() {
           </button>
         </div>
         <p className="mt-2 max-w-xl px-4 text-center text-xs text-white/30">
-          &copy; {new Date().getFullYear()} | Banking services backed by Bancorp
-          MFB & FCMB and regulated by the Central Bank of Nigeria. Brass
-          Technology Nigeria Limited, DBA: Brass is a Brass Technologies, Inc
-          company.
+          Copyright © 1999 - 2025 CredSwap, LLC. All Rights Reserved.
         </p>
       </footer>
     </>

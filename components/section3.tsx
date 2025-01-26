@@ -32,7 +32,7 @@ export default function Section3() {
             Our <span className="text-primary">S</span>tory
           </h1>
           <p className="mt-2 lg:mt-4 lg:max-w-sm">
-            At Cred wap, we’re transforming how people experience credit card
+            At CredSwap, we’re transforming how people experience credit card
             benefits. We empower individuals by enabling them to share and
             access perks seamlessly, creating a world where financial
             opportunities are open to everyone.
@@ -42,7 +42,7 @@ export default function Section3() {
           </button>
         </article>
         <article
-          className="mt-4 text-center text-4xl font-extrabold tracking-wide lg:text-start lg:text-7xl"
+          className="mt-4 text-center text-4xl font-extrabold tracking-wide lg:text-start lg:text-6xl xl:text-7xl"
           style={{ mixBlendMode: 'difference' }}
         >
           Not your average credit saviour

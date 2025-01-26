@@ -33,7 +33,7 @@ export default function Section5() {
             height={1000}
             width={1000}
             alt="bg graphics"
-            className="w-32 py-12"
+            className="w-16 py-12 sm:w-32"
           />
         </article>
       </div>
