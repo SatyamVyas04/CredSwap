@@ -22,7 +22,7 @@ export default function Hero() {
           width={200}
           height={200}
           alt="logo"
-          className="h-16"
+          className="h-16 w-fit"
         />
       </nav>
       <Image
