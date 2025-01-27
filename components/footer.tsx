@@ -17,7 +17,7 @@ export default function Footer() {
           data-aos="fade-up"
           data-aos-duration="300"
           data-aos-delay="50"
-          className="mt-1 text-center font-brilliant text-[40px] font-bold uppercase tracking-tighter sm:text-[80px] md:text-[95px] lg:text-[120px] xl:text-[190px]"
+          className="mt-1 text-center font-brilliant text-[40px] font-bold uppercase tracking-tighter sm:text-[80px] md:text-[95px] lg:text-[120px] xl:text-[180px]"
         >
           How It <span className="text-primary">Works</span>
         </h1>

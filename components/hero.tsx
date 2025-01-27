@@ -16,7 +16,7 @@ export default function Hero() {
           width={200}
           height={200}
           alt="logo"
-          className="h-8 w-fit sm:h-16"
+          className="h-8 w-fit min-w-32 sm:h-16"
         />
       </nav>
       <Image
@@ -33,7 +33,7 @@ export default function Hero() {
           data-aos-delay="0"
           className="p-4 text-center uppercase sm:text-start lg:p-16"
         >
-          <h1 className="font-brilliant text-3xl font-bold sm:text-5xl lg:text-7xl lg:font-extrabold">
+          <h1 className="font-brilliant text-3xl font-bold sm:text-5xl lg:font-extrabold xl:text-7xl">
             Kyun Badhaye <br className="hidden lg:block" /> Kandhey Par Boj
           </h1>
           <h2
@@ -43,8 +43,8 @@ export default function Hero() {
             className="text-md mt-2 font-brilliant font-semibold sm:text-2xl lg:mt-4 lg:text-3xl"
           >
             Jab Kar Sakte Hai Bina{' '}
-            <span className="text-primary">Credit Card</span> <br /> Ke Maximum
-            Discount Ki Khoj
+            <span className="text-primary">Credit Card</span>{' '}
+            <br className="hidden lg:block" /> Ke Maximum Discount Ki Khoj
           </h2>
           <p
             data-aos="fade-right"

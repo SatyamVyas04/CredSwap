@@ -10,6 +10,7 @@ export const AOSInit = () => {
       easing: 'ease-out-sine',
       duration: 400,
       once: true,
+      anchorPlacement: 'bottom-center',
     })
   }, [])
 
