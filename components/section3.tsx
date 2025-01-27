@@ -12,10 +12,13 @@ export default function Section3() {
       />
 
       <Image
+        data-aos="fade-left"
+        data-aos-duration="300"
+        data-aos-delay="50"
         width={500}
         height={500}
         alt="bg graphics"
-        className="absolute bottom-0 right-0 -z-10 hidden lg:block xl:z-10"
+        className="absolute bottom-0 right-0 -z-10 hidden md:block xl:z-10"
         src="/assets/Section3/cards.png"
       />
 
@@ -52,8 +55,8 @@ export default function Section3() {
       <section className="max-w-6xl p-4 text-center font-brilliant uppercase lg:p-12 lg:text-start">
         <article className="rounded-3xl bg-black/50 p-4 backdrop-blur-lg lg:p-12">
           <h1 className="text-3xl font-bold lg:text-5xl">Our Mission</h1>
-          <p className="mt-2 max-w-4xl text-sm lg:mt-4 lg:text-base">
-            At Cred wap, we’re transforming how people experience credit card
+          <p className="mt-2 max-w-3xl text-sm lg:mt-4 lg:text-base">
+            At CredSwap, we’re transforming how people experience credit card
             benefits. We empower individuals by enabling them to share and
             access perks seamlessly, creating a world where financial
             opportunities are open to everyone.

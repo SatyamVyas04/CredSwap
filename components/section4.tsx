@@ -6,6 +6,9 @@ export default function Section4() {
       <article className="grid gap-4 lg:grid-cols-[20%_30%_30%_20%]">
         <div className="lg:col-span-2">
           <Image
+            data-aos="fade-right"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/row1left.png"
             alt="Section 4"
             width={1000}
@@ -14,6 +17,9 @@ export default function Section4() {
         </div>
         <div className="lg:col-span-2">
           <Image
+            data-aos="fade-left"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/row1right.png"
             alt="Section 4"
             width={1000}
@@ -24,6 +30,9 @@ export default function Section4() {
       <article className="grid grid-cols-2 gap-4 lg:grid-cols-[20%_30%_30%_20%]">
         <div className="lg:col-span-1">
           <Image
+            data-aos="fade-right"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/row2left.png"
             alt="Section 4"
             width={1000}
@@ -32,6 +41,9 @@ export default function Section4() {
         </div>
         <div className="lg:col-span-1 lg:hidden">
           <Image
+            data-aos="fade-left"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/row2right.png"
             alt="Section 4"
             width={1000}
@@ -43,6 +55,9 @@ export default function Section4() {
             Earn With Your Card
           </h1>
           <Image
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/cards.png"
             alt="Section 4"
             width={1000}
@@ -52,6 +67,9 @@ export default function Section4() {
         </div>
         <div className="hidden lg:col-span-1 lg:block">
           <Image
+            data-aos="fade-left"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/row2right.png"
             alt="Section 4"
             width={1000}
@@ -62,6 +80,9 @@ export default function Section4() {
       <article className="grid gap-4 lg:grid-cols-[20%_30%_30%_20%]">
         <div className="lg:col-span-2">
           <Image
+            data-aos="fade-right"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/row3left.png"
             alt="Section 4"
             width={1000}
@@ -70,6 +91,9 @@ export default function Section4() {
         </div>
         <div className="lg:col-span-2">
           <Image
+            data-aos="fade-left"
+            data-aos-duration="400"
+            data-aos-delay="50"
             src="/assets/Section4/row3right.png"
             alt="Section 4"
             width={1000}

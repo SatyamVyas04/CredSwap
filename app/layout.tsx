@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
+
 import { Hanken_Grotesk } from 'next/font/google'
+import { AOSInit } from './aos'
 
 const grotesk = Hanken_Grotesk({
   subsets: ['latin'],
@@ -23,6 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`text-white ${grotesk.className}`}>
+      <AOSInit />
       <body>{children}</body>
     </html>
   )
