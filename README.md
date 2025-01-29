@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CredSwap Landing Page
+
+Welcome to the repository for the CredSwap landing page. This project was developed as a freelance assignment to create a landing page for CredSwap, a startup that appears to offer a discount search application. The app allows users to input their credit card information and provides them with the best available benefits.
+
+## Project Overview
+
+This landing page serves as the initial point of contact for potential users of CredSwap. It aims to provide a clear and engaging introduction to the application's features and benefits.
+
+## Features
+
+- **Responsive Design**: Ensures optimal viewing experience across a wide range of devices.
+- **Interactive Elements**: Engaging components to enhance user experience.
+- **Informative Content**: Clear and concise information about CredSwap's services.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendered applications.
+- **TypeScript**: A statically typed programming language that builds on JavaScript.
+- **TailwindCSS**: Styling language used for designing the layout and appearance of the page.
+- **ReactAOS**: Library for animating elements as they enter the viewport.
 
 ## Getting Started
 
-First, run the development server:
+To set up the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/SatyamVyas04/CredSwap.git
+   cd CredSwap
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install dependencies**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Run the development server**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   The application will be available at `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The landing page is deployed using Vercel. For more details on deployment, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+As this was a freelance project, contributions are not expected. However, if you have suggestions or improvements, feel free to open an issue or submit a pull request.
