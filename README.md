@@ -1,4 +1,4 @@
-# CredSwap Landing Page
+![Screen Shot 2025-01-29 at 21 25 39](https://github.com/user-attachments/assets/134137a0-1241-4d4c-91ba-010b815a76ea)
 
 Welcome to the repository for the CredSwap landing page. This project was developed as a freelance assignment to create a landing page for CredSwap, a startup that appears to offer a discount search application. The app allows users to input their credit card information and provides them with the best available benefits.
 
