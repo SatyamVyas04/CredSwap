@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <>
-      <article className="p-4 px-2 lg:mt-16">
+      <article className="mt-4 p-4 px-2">
         <div className="min- relative mx-auto min-h-[400px] w-[90dvw] max-w-[1300px] xl:min-h-[500px]">
           <Image
             src="/assets/Generic/videoplaceholder.png"
@@ -16,6 +16,7 @@ export default function Footer() {
         <h1
           data-aos="fade-up"
           data-aos-duration="300"
+          data-aos-offset="-450"
           data-aos-delay="50"
           className="mt-1 text-center font-brilliant text-[40px] font-bold uppercase tracking-tighter sm:text-[80px] md:text-[95px] lg:text-[120px] xl:text-[180px]"
         >

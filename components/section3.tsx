@@ -15,6 +15,7 @@ export default function Section3() {
         data-aos="fade-left"
         data-aos-duration="300"
         data-aos-delay="50"
+        data-aos-offset="-50"
         width={500}
         height={500}
         alt="bg graphics"
