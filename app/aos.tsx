@@ -1,11 +1,11 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useLayoutEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 export const AOSInit = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     AOS.init({
       easing: 'ease-out-quad',
       duration: 300,

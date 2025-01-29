@@ -16,14 +16,14 @@ export default function Footer() {
         <h1
           data-aos="fade-up"
           data-aos-duration="300"
-          data-aos-offset="-450"
+          data-aos-offset="-500"
           data-aos-delay="50"
           className="mt-1 text-center font-brilliant text-[40px] font-bold uppercase tracking-tighter sm:text-[80px] md:text-[95px] lg:text-[120px] xl:text-[180px]"
         >
           How It <span className="text-primary">Works</span>
         </h1>
       </article>
-      <footer className="mt-4 flex flex-col items-center justify-center gap-2 md:gap-6 xl:py-12">
+      <footer className="mt-1 flex flex-col items-center justify-center gap-2 md:gap-6">
         <Image
           src="/assets/Generic/textlogo.png"
           width={200}

@@ -15,7 +15,7 @@ export default function Section5() {
           <div
             data-aos="fade-right"
             data-aos-duration="300"
-            data-aos-offset="-250"
+            data-aos-offset="-300"
             data-aos-delay="50"
             className="hidden h-32 w-40 self-end bg-primary lg:block"
           ></div>
@@ -25,7 +25,7 @@ export default function Section5() {
           <div
             data-aos="fade-right"
             data-aos-duration="300"
-            data-aos-offset="-250"
+            data-aos-offset="-300"
             data-aos-delay="50"
             className="hidden h-24 w-[420px] bg-primary pr-16 lg:block"
           ></div>
@@ -39,7 +39,7 @@ export default function Section5() {
           <div
             data-aos="fade-right"
             data-aos-duration="300"
-            data-aos-offset="-250"
+            data-aos-offset="-300"
             data-aos-delay="50"
             className="hidden h-24 w-[500px] bg-primary lg:block"
           ></div>
@@ -48,7 +48,7 @@ export default function Section5() {
           <div
             data-aos="fade-right"
             data-aos-duration="300"
-            data-aos-offset="-250"
+            data-aos-offset="-300"
             data-aos-delay="50"
             className="hidden h-24 w-[700px] bg-primary lg:block"
           ></div>
