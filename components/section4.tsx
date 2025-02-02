@@ -62,7 +62,7 @@ export default function Section4() {
             alt="Section 4"
             width={1000}
             height={1000}
-            className="absolute -bottom-10 right-0 scale-90 transition-transform group-hover:scale-150"
+            className="absolute -bottom-10 right-0 scale-90 transition-transform group-hover:scale-110"
           />
         </div>
         <div className="hidden lg:col-span-1 lg:block">

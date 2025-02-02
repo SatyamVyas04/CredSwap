@@ -29,7 +29,7 @@ export default function Footer() {
           width={200}
           height={200}
           alt="logo"
-          className="h-12 w-fit"
+          className="h-12 w-fit min-w-16"
         />
         <p>Launching On</p>
         <div className="flex flex-row items-center justify-center gap-4">
